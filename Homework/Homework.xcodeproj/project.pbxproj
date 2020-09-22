@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA25D27A2519132500A15607 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D2792519132500A15607 /* main.swift */; };
+		FA25D281251913CE00A15607 /* Assistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D280251913CE00A15607 /* Assistant.swift */; };
+		FA25D2832519150200A15607 /* RecognitionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D2822519150200A15607 /* RecognitionResponse.swift */; };
+		FA25D2852519156400A15607 /* RecognitionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D2842519156400A15607 /* RecognitionError.swift */; };
+		FA25D2882519165C00A15607 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D2872519165C00A15607 /* Device.swift */; };
+		FA25D28D2519184D00A15607 /* AssistantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D28C2519184D00A15607 /* AssistantController.swift */; };
+		FA25D28F251918D600A15607 /* VoiceRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D28E251918D600A15607 /* VoiceRecognizer.swift */; };
+		FA25D2912519199F00A15607 /* DevicesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D2902519199F00A15607 /* DevicesFactory.swift */; };
+		FA25D293251919E500A15607 /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D292251919E500A15607 /* DeviceInfo.swift */; };
+		FA25D29525191A5300A15607 /* AirConditioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D29425191A5300A15607 /* AirConditioner.swift */; };
+		FA25D29725191B1600A15607 /* AirConditionerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D29625191B1600A15607 /* AirConditionerFactory.swift */; };
+		FA25D29925191C2300A15607 /* DateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D29825191C2300A15607 /* DateProvider.swift */; };
+		FA25D29C25191C9D00A15607 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D29B25191C9D00A15607 /* Logger.swift */; };
+		FA25D29E25191CC900A15607 /* DefaultLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D29D25191CC900A15607 /* DefaultLogger.swift */; };
+		FA25D2A1251920E500A15607 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D2A0251920E500A15607 /* App.swift */; };
+		FA25D2A32519212200A15607 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D2A22519212200A15607 /* AppController.swift */; };
+		FA25D2A52519223200A15607 /* DevicesStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D2A42519223200A15607 /* DevicesStorage.swift */; };
+		FA25D2A72519230400A15607 /* DevicesStorageImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D2A62519230300A15607 /* DevicesStorageImpl.swift */; };
+		FA25D2AB2519249200A15607 /* TemperatureIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D2AA2519249200A15607 /* TemperatureIndicator.swift */; };
+		FA25D2AD2519253000A15607 /* TemperatureIndicatorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D2AC2519253000A15607 /* TemperatureIndicatorImpl.swift */; };
+		FA25D2AF251925EB00A15607 /* TemperatureAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D2AE251925EB00A15607 /* TemperatureAdapter.swift */; };
+		FA25D2B12519273300A15607 /* AppGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D2B02519273300A15607 /* AppGraph.swift */; };
+		FA25D2B325192EBF00A15607 /* DateLoggerDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D2B225192EBF00A15607 /* DateLoggerDecorator.swift */; };
+		FA25D2B52519319300A15607 /* RequestPerformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D2B42519319300A15607 /* RequestPerformer.swift */; };
+		FA25D2B7251931D700A15607 /* DeviceAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D2B6251931D700A15607 /* DeviceAnalytics.swift */; };
+		FA25D2B92519321700A15607 /* DateStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D2B82519321700A15607 /* DateStrategy.swift */; };
+		FA25D2BC251935F500A15607 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D2BB251935F500A15607 /* Command.swift */; };
+		FA25D2BE2519411000A15607 /* CommandsExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D2BD2519411000A15607 /* CommandsExecutor.swift */; };
+		FA25D2C4251A4FDB00A15607 /* IntentRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D2C3251A4FDB00A15607 /* IntentRecognizer.swift */; };
+		FA25D2C6251A506F00A15607 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25D2C5251A506F00A15607 /* IntentHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA25D2742519132500A15607 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA25D2762519132500A15607 /* Homework */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Homework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA25D2792519132500A15607 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FA25D280251913CE00A15607 /* Assistant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assistant.swift; sourceTree = "<group>"; };
+		FA25D2822519150200A15607 /* RecognitionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionResponse.swift; sourceTree = "<group>"; };
+		FA25D2842519156400A15607 /* RecognitionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionError.swift; sourceTree = "<group>"; };
+		FA25D2872519165C00A15607 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		FA25D28C2519184D00A15607 /* AssistantController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantController.swift; sourceTree = "<group>"; };
+		FA25D28E251918D600A15607 /* VoiceRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecognizer.swift; sourceTree = "<group>"; };
+		FA25D2902519199F00A15607 /* DevicesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesFactory.swift; sourceTree = "<group>"; };
+		FA25D292251919E500A15607 /* DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
+		FA25D29425191A5300A15607 /* AirConditioner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirConditioner.swift; sourceTree = "<group>"; };
+		FA25D29625191B1600A15607 /* AirConditionerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirConditionerFactory.swift; sourceTree = "<group>"; };
+		FA25D29825191C2300A15607 /* DateProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateProvider.swift; sourceTree = "<group>"; };
+		FA25D29B25191C9D00A15607 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		FA25D29D25191CC900A15607 /* DefaultLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultLogger.swift; sourceTree = "<group>"; };
+		FA25D2A0251920E500A15607 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		FA25D2A22519212200A15607 /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		FA25D2A42519223200A15607 /* DevicesStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesStorage.swift; sourceTree = "<group>"; };
+		FA25D2A62519230300A15607 /* DevicesStorageImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesStorageImpl.swift; sourceTree = "<group>"; };
+		FA25D2AA2519249200A15607 /* TemperatureIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureIndicator.swift; sourceTree = "<group>"; };
+		FA25D2AC2519253000A15607 /* TemperatureIndicatorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureIndicatorImpl.swift; sourceTree = "<group>"; };
+		FA25D2AE251925EB00A15607 /* TemperatureAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureAdapter.swift; sourceTree = "<group>"; };
+		FA25D2B02519273300A15607 /* AppGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGraph.swift; sourceTree = "<group>"; };
+		FA25D2B225192EBF00A15607 /* DateLoggerDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateLoggerDecorator.swift; sourceTree = "<group>"; };
+		FA25D2B42519319300A15607 /* RequestPerformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestPerformer.swift; sourceTree = "<group>"; };
+		FA25D2B6251931D700A15607 /* DeviceAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceAnalytics.swift; sourceTree = "<group>"; };
+		FA25D2B82519321700A15607 /* DateStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateStrategy.swift; sourceTree = "<group>"; };
+		FA25D2BB251935F500A15607 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		FA25D2BD2519411000A15607 /* CommandsExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandsExecutor.swift; sourceTree = "<group>"; };
+		FA25D2C3251A4FDB00A15607 /* IntentRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentRecognizer.swift; sourceTree = "<group>"; };
+		FA25D2C5251A506F00A15607 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA25D2732519132500A15607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA25D26D2519132500A15607 = {
+			isa = PBXGroup;
+			children = (
+				FA25D2782519132500A15607 /* Homework */,
+				FA25D2772519132500A15607 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA25D2772519132500A15607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA25D2762519132500A15607 /* Homework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA25D2782519132500A15607 /* Homework */ = {
+			isa = PBXGroup;
+			children = (
+				FA25D29F251920C500A15607 /* App */,
+				FA25D289251917D200A15607 /* Assistant */,
+				FA25D29A25191C9100A15607 /* Logger */,
+				FA25D2862519163900A15607 /* Devices */,
+				FA25D2792519132500A15607 /* main.swift */,
+				FA25D2842519156400A15607 /* RecognitionError.swift */,
+				FA25D2822519150200A15607 /* RecognitionResponse.swift */,
+			);
+			path = Homework;
+			sourceTree = "<group>";
+		};
+		FA25D2862519163900A15607 /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				FA25D2A92519247D00A15607 /* TemperatureIndicator */,
+				FA25D2A82519246D00A15607 /* AirConditioner */,
+				FA25D2C2251A4F9D00A15607 /* Devices */,
+				FA25D2C1251A4F9100A15607 /* Commands */,
+				FA25D2BA2519330400A15607 /* Date */,
+			);
+			path = Devices;
+			sourceTree = "<group>";
+		};
+		FA25D289251917D200A15607 /* Assistant */ = {
+			isa = PBXGroup;
+			children = (
+				FA25D280251913CE00A15607 /* Assistant.swift */,
+				FA25D28C2519184D00A15607 /* AssistantController.swift */,
+				FA25D28E251918D600A15607 /* VoiceRecognizer.swift */,
+				FA25D2C3251A4FDB00A15607 /* IntentRecognizer.swift */,
+				FA25D2C5251A506F00A15607 /* IntentHandler.swift */,
+			);
+			path = Assistant;
+			sourceTree = "<group>";
+		};
+		FA25D29A25191C9100A15607 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				FA25D29B25191C9D00A15607 /* Logger.swift */,
+				FA25D29D25191CC900A15607 /* DefaultLogger.swift */,
+				FA25D2B225192EBF00A15607 /* DateLoggerDecorator.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		FA25D29F251920C500A15607 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FA25D2A0251920E500A15607 /* App.swift */,
+				FA25D2B02519273300A15607 /* AppGraph.swift */,
+				FA25D2A22519212200A15607 /* AppController.swift */,
+				FA25D2A42519223200A15607 /* DevicesStorage.swift */,
+				FA25D2A62519230300A15607 /* DevicesStorageImpl.swift */,
+				FA25D2B42519319300A15607 /* RequestPerformer.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FA25D2A82519246D00A15607 /* AirConditioner */ = {
+			isa = PBXGroup;
+			children = (
+				FA25D29425191A5300A15607 /* AirConditioner.swift */,
+				FA25D29625191B1600A15607 /* AirConditionerFactory.swift */,
+			);
+			path = AirConditioner;
+			sourceTree = "<group>";
+		};
+		FA25D2A92519247D00A15607 /* TemperatureIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				FA25D2AA2519249200A15607 /* TemperatureIndicator.swift */,
+				FA25D2AC2519253000A15607 /* TemperatureIndicatorImpl.swift */,
+				FA25D2AE251925EB00A15607 /* TemperatureAdapter.swift */,
+			);
+			path = TemperatureIndicator;
+			sourceTree = "<group>";
+		};
+		FA25D2BA2519330400A15607 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				FA25D29825191C2300A15607 /* DateProvider.swift */,
+				FA25D2B82519321700A15607 /* DateStrategy.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		FA25D2C1251A4F9100A15607 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				FA25D2BD2519411000A15607 /* CommandsExecutor.swift */,
+				FA25D2BB251935F500A15607 /* Command.swift */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
+		FA25D2C2251A4F9D00A15607 /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				FA25D2872519165C00A15607 /* Device.swift */,
+				FA25D2B6251931D700A15607 /* DeviceAnalytics.swift */,
+				FA25D2902519199F00A15607 /* DevicesFactory.swift */,
+				FA25D292251919E500A15607 /* DeviceInfo.swift */,
+			);
+			path = Devices;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA25D2752519132500A15607 /* Homework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA25D27D2519132500A15607 /* Build configuration list for PBXNativeTarget "Homework" */;
+			buildPhases = (
+				FA25D2722519132500A15607 /* Sources */,
+				FA25D2732519132500A15607 /* Frameworks */,
+				FA25D2742519132500A15607 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Homework;
+			productName = Homework;
+			productReference = FA25D2762519132500A15607 /* Homework */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA25D26E2519132500A15607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Alex;
+				TargetAttributes = {
+					FA25D2752519132500A15607 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FA25D2712519132500A15607 /* Build configuration list for PBXProject "Homework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA25D26D2519132500A15607;
+			productRefGroup = FA25D2772519132500A15607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA25D2752519132500A15607 /* Homework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA25D2722519132500A15607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA25D2AD2519253000A15607 /* TemperatureIndicatorImpl.swift in Sources */,
+				FA25D29925191C2300A15607 /* DateProvider.swift in Sources */,
+				FA25D2852519156400A15607 /* RecognitionError.swift in Sources */,
+				FA25D281251913CE00A15607 /* Assistant.swift in Sources */,
+				FA25D2B12519273300A15607 /* AppGraph.swift in Sources */,
+				FA25D2AF251925EB00A15607 /* TemperatureAdapter.swift in Sources */,
+				FA25D2832519150200A15607 /* RecognitionResponse.swift in Sources */,
+				FA25D27A2519132500A15607 /* main.swift in Sources */,
+				FA25D2A52519223200A15607 /* DevicesStorage.swift in Sources */,
+				FA25D2A1251920E500A15607 /* App.swift in Sources */,
+				FA25D29E25191CC900A15607 /* DefaultLogger.swift in Sources */,
+				FA25D2BC251935F500A15607 /* Command.swift in Sources */,
+				FA25D29725191B1600A15607 /* AirConditionerFactory.swift in Sources */,
+				FA25D2882519165C00A15607 /* Device.swift in Sources */,
+				FA25D2C6251A506F00A15607 /* IntentHandler.swift in Sources */,
+				FA25D2912519199F00A15607 /* DevicesFactory.swift in Sources */,
+				FA25D2A32519212200A15607 /* AppController.swift in Sources */,
+				FA25D28F251918D600A15607 /* VoiceRecognizer.swift in Sources */,
+				FA25D29525191A5300A15607 /* AirConditioner.swift in Sources */,
+				FA25D2A72519230400A15607 /* DevicesStorageImpl.swift in Sources */,
+				FA25D29C25191C9D00A15607 /* Logger.swift in Sources */,
+				FA25D28D2519184D00A15607 /* AssistantController.swift in Sources */,
+				FA25D2B325192EBF00A15607 /* DateLoggerDecorator.swift in Sources */,
+				FA25D2B92519321700A15607 /* DateStrategy.swift in Sources */,
+				FA25D2AB2519249200A15607 /* TemperatureIndicator.swift in Sources */,
+				FA25D2B52519319300A15607 /* RequestPerformer.swift in Sources */,
+				FA25D2B7251931D700A15607 /* DeviceAnalytics.swift in Sources */,
+				FA25D2C4251A4FDB00A15607 /* IntentRecognizer.swift in Sources */,
+				FA25D293251919E500A15607 /* DeviceInfo.swift in Sources */,
+				FA25D2BE2519411000A15607 /* CommandsExecutor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA25D27B2519132500A15607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA25D27C2519132500A15607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FA25D27E2519132500A15607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWCTLCYKBW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FA25D27F2519132500A15607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWCTLCYKBW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA25D2712519132500A15607 /* Build configuration list for PBXProject "Homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA25D27B2519132500A15607 /* Debug */,
+				FA25D27C2519132500A15607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA25D27D2519132500A15607 /* Build configuration list for PBXNativeTarget "Homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA25D27E2519132500A15607 /* Debug */,
+				FA25D27F2519132500A15607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA25D26E2519132500A15607 /* Project object */;
+}
